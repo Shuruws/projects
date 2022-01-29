@@ -15,7 +15,7 @@ def states_accessor():
 
 
 def tracks_accessor():
-    # From reading documentation, running this through is implied first!
+    # Fromergem reading documentation, running this through is implied first!
     # flights_accessor()
     url = f"{ROOT_URL}/tracks/all?icao24=a808c5&time=1641142800"
     r = requests.get(url)
@@ -23,3 +23,4 @@ def tracks_accessor():
         raise RuntimeError(r.json())
     # print(r.json())
     # BUT this is de-activated :(
+

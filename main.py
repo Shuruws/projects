@@ -7,3 +7,5 @@ def main_wrapper():
 if __name__ == "__main__":
     main_wrapper()
     # what is going on?
+
+    # setup gitignore and pull template

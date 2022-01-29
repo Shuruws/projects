@@ -1,5 +1,5 @@
 from api import fetcher
-
+from data import aggregate
 
 def main_wrapper():
     # Attribute are a thing

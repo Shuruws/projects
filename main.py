@@ -6,6 +6,7 @@ def main_wrapper():
     print("This is the start of our project")
     # fetcher.states_accessor()
     fetcher.states_accessor()
+    fetcher.tracks_accessor()
     print("this is the end of our python project")
 
 
